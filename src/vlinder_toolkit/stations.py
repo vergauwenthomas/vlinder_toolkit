@@ -275,7 +275,7 @@ class Station:
         #update obs attributes
         setattr(self, obstype, updated_obs)
         #update qc flags df
-        self.qc_labels_df[obstype]['gross_value'] = qc_flags
+        self.qc_labels_df[obstype]['persistance'] = qc_flags
 
 # =============================================================================
 # Dataset class
